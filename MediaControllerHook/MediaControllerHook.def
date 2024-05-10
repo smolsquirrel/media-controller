@@ -1,0 +1,11 @@
+LIBRARY   MEDIACONTROLLERHOOK
+HEAPSIZE  4096
+
+SECTIONS
+   SHARED READ WRITE SHARED
+
+EXPORTS  
+   InstallHook
+   UninstallHook
+   SetMediaDevice
+   SetCurrentDevice
