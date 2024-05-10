@@ -158,7 +158,7 @@ std::vector<RAWINPUTDEVICELIST> getMouseDevices()
     return devices;
 }
 
-int x()
+int listDevices()
 {
     std::wstring s;
     int x = readConfig(s);
